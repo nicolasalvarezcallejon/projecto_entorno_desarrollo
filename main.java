@@ -23,16 +23,19 @@ public class main {
                 System.out.print("Introduce dos numeros: ");
                 numero1 = teclado.nextInt();
                 numero2 = teclado.nextInt();
+                return suma;
                 break;
             case 2:
                 System.out.print("Introduce el número que quiere restar a su número principal: ");
                 numero1 = teclado.nextInt();
                 numero2 = teclado.nextInt();
+                return resta;
                 break;
             case 3:
                 System.out.print("Introduce el número por el que quiere multiplicar su número principal: ");
                 numero1 = teclado.nextInt();
                 numero2 = teclado.nextInt();
+                return multiplicar;
                 break;
         }
     }
